@@ -116,6 +116,6 @@ searchButton.addEventListener("click" , function(){
 
 } )
 
-searchInput.addEventListener("keyup", function () {
-  getFetch(searchInput.value);
-});
+// searchInput.addEventListener("keyup", function () {
+//   getFetch(searchInput.value);
+// });
