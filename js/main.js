@@ -1,7 +1,7 @@
 
 
 var weatherResult;
-async function getFetch(term) {
+async function getFetch(term="london") {
   var weatherReq = await fetch(
     `http://api.weatherapi.com/v1/forecast.json?key=922d8b3605104b1097852751231608&q=${term}&days=3`
   );
@@ -116,6 +116,6 @@ searchButton.addEventListener("click" , function(){
 
 } )
 
-// searchInput.addEventListener("keyup", function () {
-//   getFetch(searchInput.value);
-// });
+searchInput.addEventListener("keyup", function () {
+  getFetch(searchInput.value);
+});
