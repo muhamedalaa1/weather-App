@@ -1,0 +1,181 @@
+.navContainer{
+    background-color: #1E202B;
+    padding: 25px;
+
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: unset;
+    align-items: center;
+}
+nav{
+    background-color: #1E202B;
+    padding: 25px 0;
+}
+.myNav{
+    background-color: #1E202B !important;
+}
+.logoSection img {
+    width: 64px;
+    height: 38px;
+    margin-right: 15px;
+}
+.logoText h1{
+    font-size: 25px;
+    color: #fff;
+}
+.logoText p{
+    font-size: 10px;
+    color: #fff;
+
+}
+
+
+
+.myList ul li {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ========= */
+
+.navbar-nav a{
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.3s all ;
+    border: 2px solid transparent;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.navbar-nav a:hover{
+    color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 20px;
+    padding:0 10px;
+}
+.navbar-nav .active{
+    color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+/* !end navbar */
+/* !end navbar */
+
+
+
+
+
+/* *start body */
+/* *start body */
+footer{
+    color:#262936 ;
+}
+footer .container p{
+    color:#8A8B91 ;
+}
+body{
+    background-color: #2D303D;
+}
+.mainContent{
+    padding: 20px 0;
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.mySearch{
+    padding: 10px;
+    background-color: #1E202B;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.mySearch .searchInput{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 10px ;
+}
+.mySearch .searchInput::placeholder{
+  color: #adadad;
+}
+.mySearch button{
+   background-color: #009AD8;
+   color: #fff;
+   border: 1px solid #009AD8;
+   border-radius: 6px;
+   padding: 10px 15px;
+}
+
+.topOfCard p {
+    color:#8A8B91 ;
+    margin-bottom: 0;
+}
+.topOfCard{
+    padding: 10px 20px ;
+    background-color: #2D303D;
+}
+
+.minTemp{
+    font-size: 18px;
+}
+.bodyOfCard p {
+    color: #8A8B91;
+}
+.tail img{
+    width: 18px;
+}
+
+
+.myCard .inner{
+    background-color: #323544;
+    padding: 25px;
+    border-radius: 6px;
+    height: 100%;
+}
+.tailOfCard p {
+    color: #009AD8;
+}
+.tail p{
+    color: #8A8B91;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+
+/* *start foot */
+/* *start foot */
+.footerLinks ul{
+   list-style: none;
+   display: flex;
+}
+.footerLinks ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: #1E202B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: 0.3s all;
+}
+.footerLinks ul li a:hover{
+
+    color: #009AD8;
+    border: 2px solid #009AD8;
+
+}
+.footerLinks ul li {
+
+    margin-left: 15px;
+}
