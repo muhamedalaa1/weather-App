@@ -5,7 +5,7 @@ async function getFetch(term="cairo") {
 
   
     var weatherReq = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=922d8b3605104b1097852751231608&q=${term}&days=3`
+      `https://api.weatherapi.com/v1/forecast.json?key=922d8b3605104b1097852751231608&q=${term}&days=3`
     );
     let weatherResult = await weatherReq.json();
 
