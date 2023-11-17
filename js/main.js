@@ -126,13 +126,16 @@ startApp();
 var searchButton = document.querySelector(".searchButton");
 var searchInput = document.querySelector(".searchInput");
 
-// searchButton.addEventListener("click" , function(){
+searchButton.addEventListener("click" , function(){
 
-//     getFetch(searchInput.value);
+    getFetch(searchInput.value);
 
 
-// } )
+} )
 
+searchInput.addEventListener("keyup", function () {
+  startApp(searchInput.value);
+});
 searchButton.addEventListener("click", function () {
   startApp(searchInput.value);
 });

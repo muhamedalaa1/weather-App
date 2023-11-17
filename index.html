@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>Weather App</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/external/all.min.css">
@@ -11,7 +10,87 @@
 </head>
 <body>
     
-
+    <!-- <div class="navContainer container-fluid">
+        <nav class="myNav navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container w-75">
+                <div class="logoSection d-flex align-items-center">
+                    <a class="navbar-brand" href="#"><img src="./imgs/logo@2x.png" alt="Wind logo"></a>
+                    <div class="logoText">
+                        <h1 class="text-">Weather</h1>
+                        <p class="text-">Tagline goes there</p>
+                    </div>
+                </div>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="text-white nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="text-white nav-link" href="#">News</a>
+                        <a class="text-white nav-link" href="#">Live Cameras</a>
+                        <a class="text-white nav-link" href="#">Photos</a>
+                        <a class="text-white nav-link" href="#">Contact</a>                       
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+    <!-- ====================================================== -->
+    <div class="container-fluid navContainer">
+        <nav class="myNav navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+        <a class="navbar-brand logoSection" href="#"><img src="./imgs/logo@2x.png" alt="Wind logo"></a>
+    <div class="logoText">
+        <h1 class="text-">Weather</h1>
+        <p class="text-">Tagline goes there</p>
+    </div>
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars text-white"></i>
+    </button>
+   
+    <div class="offcanvas offcanvas-end myNav" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Weather</h5>
+        <button type="button" class="bg-transparent border-0"  data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="fa-solid fa-xmark text-white"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item my-2">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item my-2">
+            <a class="nav-link " href="#">News</a>
+          </li>
+          <li class="nav-item my-2">
+            <a class="nav-link " href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item my-2">
+            <a class="nav-link " href="#">Photos</a>
+          </li>
+          <li class="nav-item my-2">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+    </div>
 
 
     <section class="mainContent py-5">
